@@ -38,6 +38,7 @@ version: '3.8'
 services:
   backend:
     build: ./backend
+    image: sushmaagowdaa/mern-backend
     container_name: backend
     ports:
       - "5001:5001"
@@ -49,6 +50,7 @@ services:
   frontend:
     build:
       context: ./frontend
+    image: sushmaagowdaa/mern-frontend
     container_name: frontend
     ports:
       - "5173:80"
