@@ -31,8 +31,8 @@ pipeline{
             steps{
                 withSonarQubeEnv('sonar-server') {
                     sh ''' ${SCANNER_HOME}/bin/sonar-scanner \
-                    -Dsonar.projectName=Virtual_AI_Assisstant \
-                    -Dsonar.projectKey=Virtual_AI_Assisstant'''
+                    -Dsonar.projectName=mern-chat \
+                    -Dsonar.projectKey=mern-chat'''
                 }
             }
         }
