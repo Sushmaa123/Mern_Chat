@@ -32,7 +32,7 @@ NODE_ENV=development
 ### Build the app
 
 ```shell
-npm run build
+npm run build 
 ```
 
 ### Start the app
